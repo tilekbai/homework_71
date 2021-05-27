@@ -1,0 +1,164 @@
+[
+{
+  "model": "shop.product",
+  "pk": 1,
+  "fields": {
+    "name": "Pen",
+    "description": "Color:Blue; Firm: Maxichai",
+    "category": 3,
+    "remainder": 20,
+    "price": "30.00"
+  }
+},
+{
+  "model": "shop.product",
+  "pk": 2,
+  "fields": {
+    "name": "Ball",
+    "description": "Football ball; White-red; Label: Nike;",
+    "category": 6,
+    "remainder": 55,
+    "price": "40.00"
+  }
+},
+{
+  "model": "shop.product",
+  "pk": 3,
+  "fields": {
+    "name": "Notebook",
+    "description": "HP, windows; r64; Processor: Intel Core i7",
+    "category": 5,
+    "remainder": 30,
+    "price": "1000.00"
+  }
+},
+{
+  "model": "shop.product",
+  "pk": 4,
+  "fields": {
+    "name": "Jeans Shirt",
+    "description": "Black color; Country: Kyrgyzstan;",
+    "category": 4,
+    "remainder": 100,
+    "price": "25.00"
+  }
+},
+{
+  "model": "shop.product",
+  "pk": 5,
+  "fields": {
+    "name": "Book",
+    "description": "Django Python; Version: 3.1.7",
+    "category": 3,
+    "remainder": 50,
+    "price": "30.00"
+  }
+},
+{
+  "model": "shop.product",
+  "pk": 6,
+  "fields": {
+    "name": "Table",
+    "description": "Color: Brown; Wood; Made in Kyrgyzstan;",
+    "category": 2,
+    "remainder": 50,
+    "price": "300.00"
+  }
+},
+{
+  "model": "shop.category",
+  "pk": 1,
+  "fields": {
+    "category": "Toy"
+  }
+},
+{
+  "model": "shop.category",
+  "pk": 2,
+  "fields": {
+    "category": "Home"
+  }
+},
+{
+  "model": "shop.category",
+  "pk": 3,
+  "fields": {
+    "category": "Education"
+  }
+},
+{
+  "model": "shop.category",
+  "pk": 4,
+  "fields": {
+    "category": "Clothes"
+  }
+},
+{
+  "model": "shop.category",
+  "pk": 5,
+  "fields": {
+    "category": "Electronic"
+  }
+},
+{
+  "model": "shop.category",
+  "pk": 6,
+  "fields": {
+    "category": "Sport"
+  }
+},
+{
+  "model": "auth.user",
+  "pk": 1,
+  "fields": {
+    "password": "pbkdf2_sha256$260000$Y9S3Gv7reHVH30DClzFuDK$4C+Mp4J8A10Hj+KbEaOBLMV2e5LsrnPMGtuCuaW3Zwc=",
+    "last_login": "2021-05-27T07:53:06.568Z",
+    "is_superuser": true,
+    "username": "user",
+    "first_name": "",
+    "last_name": "",
+    "email": "user@mail.ru",
+    "is_staff": true,
+    "is_active": true,
+    "date_joined": "2021-05-27T07:52:45.757Z",
+    "groups": [],
+    "user_permissions": []
+  }
+},
+{
+  "model": "auth.user",
+  "pk": 2,
+  "fields": {
+    "password": "pbkdf2_sha256$260000$oir8sbVJf8CPhpEWJl3EuL$SPuJKx+edpFA1rSKPLxN3HRA2PaYw4W3QcLQnuqOEdo=",
+    "last_login": null,
+    "is_superuser": false,
+    "username": "bobby",
+    "first_name": "",
+    "last_name": "",
+    "email": "",
+    "is_staff": false,
+    "is_active": true,
+    "date_joined": "2021-05-27T07:56:14.861Z",
+    "groups": [],
+    "user_permissions": []
+  }
+},
+{
+  "model": "auth.user",
+  "pk": 3,
+  "fields": {
+    "password": "pbkdf2_sha256$260000$detucZh83wfTEK0PsYze1T$Sp3YLZi59glMC5VPqbNbXkJ1wUO1FGqMBpqLsIpP/Qs=",
+    "last_login": null,
+    "is_superuser": false,
+    "username": "Rio",
+    "first_name": "",
+    "last_name": "",
+    "email": "",
+    "is_staff": false,
+    "is_active": true,
+    "date_joined": "2021-05-27T07:56:59.569Z",
+    "groups": [],
+    "user_permissions": []
+  }
+}
+]

@@ -14,7 +14,7 @@ body{
 .header-info-block {
 	margin: 50px 0;
 	text-align: center;
-	color: #424242;
+	color: black;
 }
 	.header-info-block h1{
 		text-transform: uppercase;
@@ -184,4 +184,23 @@ body{
 		font-weight: bold;
 		font-size: 20px;
 		text-decoration-line: underline;
+	}
+	.container {
+		width: 600px;
+		border: solid;
+		border-color: teal;
+		text-align: left;
+		padding: 5px 15px;
+		margin-left: 50px;
+	}
+	
+	.form-error {
+		color: red;
+		font-size: 12px;
+		margin: 5px 0 0 0
+	}
+	
+	.field-error {
+		border: solid 1px red;
+		box-shadow: red 0 0 3px;
 	}

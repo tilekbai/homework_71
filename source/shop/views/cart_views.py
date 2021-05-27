@@ -25,7 +25,6 @@ class CartView(HitCountMixin, ListView, FormMixin):
             total += Product.objects.get(pk=id).price * count
             queryset.append(product)
         queryset.append(total)
-        # print(str(self.request.user.last_login.strftime('%y-%m-%d %a %H:%M:%S')))
         return queryset
 
     def get_cart(self):

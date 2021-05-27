@@ -11,6 +11,7 @@ HOMEPAGE_URL = 'products/'
 urlpatterns = [
     path('admin/', admin.site.urls),
     path('products/', include('shop.urls')),
-    path('', include('accounts.urls')),
+    path('products/', include('accounts.urls')),
+    path('', include('api.urls')),
     path('', RedirectView.as_view(url=HOMEPAGE_URL, permanent=False))
 ]

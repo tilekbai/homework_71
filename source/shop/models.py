@@ -1,7 +1,7 @@
 from django.db import models
 from django.core.validators import MinValueValidator
 from django.contrib.auth import get_user_model
-
+ 
 class Product(models.Model):
     name = models.CharField(max_length=100, null=False, blank=False, verbose_name='Product Name')
     description = models.TextField(max_length=2000, null=True, blank=True, verbose_name='Product Description')
